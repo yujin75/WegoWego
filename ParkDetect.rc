@@ -1,0 +1,216 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#include ""res\\ParkDetect.rc2""  // Microsoft Visual C++ ??곸뇚????삘뀲 ?袁㏓럡?癒?퐣 ?紐꾩춿???귐딅꺖??쇱뿯??덈뼄.\r\n"
+    "#include ""l.KOR\\afxres.rc""      // ??? ?닌딄쉐 ?遺용꺖\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.KOR\\afxribbon.rc""   // MFC ?귐됰궚 獄??뚢뫂?껅에?筌띾맧? ?귐딅꺖??\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ParkDetect.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PARKDETECT_DIALOG DIALOGEX 0, 0, 348, 295
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Parking Management"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "시작",IDOK,7,274,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "종료",IDCANCEL,58,274,50,14,NOT WS_VISIBLE
+    LTEXT           "Parking Management",IDC_STATIC,7,7,67,8
+    LISTBOX         IDC_LIST_Possible,254,48,49,81,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_Impossible,254,150,49,86,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Parkinig Available",IDC_STATIC,254,36,56,8
+    LTEXT           "Parking Unavailable",IDC_STATIC,253,137,62,8
+    CONTROL         "",IDC_PL_1,"Static",SS_WHITEFRAME,51,37,57,39
+    PUSHBUTTON      "Start",IDC_BTN_Start,156,254,50,14
+    LTEXT           "No.1",IDC_STATIC,30,37,16,8
+    PUSHBUTTON      "이벤트 발생",IDC_BTN_EVENT,135,7,50,14
+    CONTROL         "",IDC_PL_2,"Static",SS_WHITEFRAME,51,76,57,39
+    LTEXT           "No.2",IDC_STATIC,30,76,16,8
+    CONTROL         "",IDC_PL_3,"Static",SS_WHITEFRAME,51,114,57,39
+    LTEXT           "No.3",IDC_STATIC,30,114,16,8
+    CONTROL         "",IDC_PL_4,"Static",SS_WHITEFRAME,51,153,57,39
+    LTEXT           "No.4",IDC_STATIC,30,153,16,8
+    CONTROL         "",IDC_PL_5,"Static",SS_WHITEFRAME,51,192,57,39
+    LTEXT           "No.5",IDC_STATIC,30,192,16,8
+    CONTROL         "",IDC_PL_6,"Static",SS_WHITEFRAME,152,37,57,39
+    CONTROL         "",IDC_PL_7,"Static",SS_WHITEFRAME,152,76,57,39
+    CONTROL         "",IDC_PL_8,"Static",SS_WHITEFRAME,152,114,57,39
+    CONTROL         "",IDC_PL_9,"Static",SS_WHITEFRAME,152,153,57,39
+    CONTROL         "",IDC_PL_10,"Static",SS_WHITEFRAME,152,192,57,39
+    LTEXT           "No.6",IDC_STATIC,215,37,16,8
+    LTEXT           "No.7",IDC_STATIC,215,76,16,8
+    LTEXT           "No.8",IDC_STATIC,215,114,16,8
+    LTEXT           "No.9",IDC_STATIC,215,153,16,8
+    LTEXT           "No.10",IDC_STATIC,215,192,20,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "ParkDetect"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ParkDetect.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "ParkDetect.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PARKDETECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PARKDETECT_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#include "res\ParkDetect.rc2"  // Microsoft Visual C++ ?댁쇅???ㅻⅨ ?꾧뎄?먯꽌 ?몄쭛??由ъ냼?ㅼ엯?덈떎.
+#include "l.KOR\afxres.rc"      // ?쒖? 援ъ꽦 ?붿냼
+#if !defined(_AFXDLL)
+#include "l.KOR\afxribbon.rc"   // MFC 由щ낯 諛?而⑦듃濡?留됰? 由ъ냼??
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
